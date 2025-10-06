@@ -7,14 +7,28 @@ const eur_km = 0.21;
 const children = eur_km - (eur_km * 0.2)
 const senior = eur_km - (eur_km * 0.4)
 
-// Richiedo l'input km all'utente
+// Dichiaro una variabile let che mi permetterà di rgolare i decimali dell'output
 
-let km = prompt("Inserisci i km che percorrerai: ")
+let output_price
+
+// Richiedo l'input km all'utente con un alert carino per introdurlo!
+
+alert("Salve, scopri quanto spenderai in base alla strada che percorrerai e la tua età! Clicca ok per continuare!")
+let km;
+km = prompt("Inserisci i km che percorrerai: ")
 console.log(km)
+alert("Perfetto, vedo che percorrerai " + km + "km")
 
 // richiedi l'età
 
+alert("Adesso scopriamo la tua età! Quanti anni hai?")
+let età;
+età = prompt("Inserisci la tua età:")
+console.log(età)
+
 // Confronto l'età
+
+alert("Vedo che hai " + età + " anni! Li porti bene. Adesso farò i calcoli e ti dirò quanto spenderai!")
 
 // condizione età minore di 18
 
