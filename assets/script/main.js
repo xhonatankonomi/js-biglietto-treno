@@ -53,3 +53,5 @@ if (età <= 18) {
         alert("Dato che hai " + età + " anni, pagherai " + output_price + "€")
 
 }
+
+alert("Buon viaggio!")
