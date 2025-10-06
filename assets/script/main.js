@@ -7,7 +7,7 @@ const eur_km = 0.21;
 const children = eur_km - (eur_km * 0.2)
 const senior = eur_km - (eur_km * 0.4)
 
-// Dichiaro una variabile let che mi permetterà di rgolare i decimali dell'output
+// Dichiaro una variabile let che mi permetterà di rgolare i decimali dell'output in seguito
 
 let output_price
 
@@ -29,6 +29,12 @@ console.log(età)
 // Confronto l'età
 
 alert("Vedo che hai " + età + " anni! Li porti bene. Adesso farò i calcoli e ti dirò quanto spenderai!")
+
+if (età <= 18) {
+   output_price = km * children;
+    output_price = output_price.toFixed(2); 
+    console.log(output_price);
+}
 
 // condizione età minore di 18
 
