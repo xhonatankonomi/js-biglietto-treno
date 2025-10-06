@@ -1,5 +1,4 @@
 // inizializzo le costanti
-// dichiaro una variabile float per l'output
 
 // Le costanti servono a stabilire i prezzi fissi delle tariffe. Servono a impedire che possano variare in seguito
 
