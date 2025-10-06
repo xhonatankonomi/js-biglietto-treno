@@ -34,7 +34,6 @@ if (età <= 18) {
     output_price = km * children;
     output_price = output_price.toFixed(2); 
     console.log(output_price);
-    alert("Dato che hai " + età + " anni, pagherai " + output_price + "€")
 
 }  
     else if (età >= 65) {
@@ -42,7 +41,6 @@ if (età <= 18) {
         output_price = km * senior;
         output_price = output_price.toFixed(2); 
         console.log(output_price);
-        alert("Dato che hai " + età + " anni, pagherai " + output_price + "€")
 
 }  
     else {
@@ -50,8 +48,9 @@ if (età <= 18) {
         output_price = km * eur_km;
         output_price = output_price.toFixed(2); 
         console.log(output_price);
-        alert("Dato che hai " + età + " anni, pagherai " + output_price + "€")
 
 }
+
+alert("Dato che hai " + età + " anni, pagherai " + output_price + "€")
 
 alert("Buon viaggio!")
